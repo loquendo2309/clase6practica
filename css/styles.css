@@ -1,0 +1,42 @@
+:root {
+  --colorWhite: #f8f9fa;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(../img/background-github.png);
+  background-size: cover;
+  background-position: center;
+  color: var(--colorWhite);
+}
+header {
+  background-color: #24292e;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+main {
+  padding: 2rem;
+  text-align: center;
+}
+footer {
+  background-color: #24292e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
